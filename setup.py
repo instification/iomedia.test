@@ -40,5 +40,6 @@ setup(name='iomedia.test',
       # your package.
       setup_requires=["PasteScript"],
       paster_plugins = ["ZopeSkel"],
-
+      extras_require = {
+                        'test' : ['plone.testing']}
       )
